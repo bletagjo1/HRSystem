@@ -1,0 +1,327 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eeeeee;
+}
+
+.menu {
+    width: 20%;
+    display: block;
+    background-color: rgb(55 71 79); 
+    position: fixed;
+    height: 100%;
+    overflow: hidden;
+    transition: 1s;
+}
+
+.profile {
+    text-align: center;
+    padding: 7% 3%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile img {
+    width: 45%;
+    margin-top: 5%;
+    margin-left: 25%;
+    margin-bottom: 1%;
+}
+
+.profile h1 {
+    font-family: "Lato", sans-serif;
+    font-weight: 200;
+    margin-bottom: 3%;
+}
+
+.profile i {
+    color: white;
+    padding: 1% 3%;
+}
+
+.yourName {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 2%;
+    margin: 3% 0%;
+}
+
+.yourName img {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    margin: 0% 5%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    border-radius: 50%;
+}
+
+.yourName h1 {
+    font-size: 25px;
+    font-family: "Lato";
+    font-weight: 400;
+    color: white;
+    text-transform: capitalize;
+}
+
+.div1 {
+    background-color: #263238;
+    padding-bottom: 3%;
+}
+
+.menuContent {
+    padding: 7% 4%;
+}
+
+.dashboard {
+    font-size: 22px;
+    padding: 7% 3.5%;
+    display: flex;
+    transition: 1s;
+    border-bottom: 1px solid #455A64;
+    color: #CFD8DC;
+}
+
+.dashboard i {
+    color: white;
+    width: 15%;
+    font-size: 20px;
+}
+
+.dashboard i:last-child {
+    width: 10%; 
+    text-align: center;
+}
+
+.dashboard a {
+    text-decoration: none;
+    color: white;
+}
+
+.dashboard:hover {
+    background-color: #263238;
+}
+
+.container {
+    width: 80%;
+    margin-left: 20%;
+}
+
+.nav-bar {
+    width: 100%;
+    background-color: rgb(17, 19, 30);
+    background-attachment: fixed;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 2%;
+    transition: 1s;
+}
+
+.nav-bar i {
+    font-size: 25px;
+}
+
+.dropDown {
+    position:relative;
+    display:inline-block;
+}
+
+.dropDownContent {
+    position: absolute;
+    display: none;
+    background-color: white;
+    width: 160px;
+    right: -10px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.dropDownContent li {
+    list-style: none;
+    padding: 3%;
+    margin: 2%;
+    transition: 1s;
+}
+
+.dropDownContent li:hover {
+    background-color: #eeeeee;
+}
+
+.dropDownContent i {
+    color: black;
+    font-size: 18px;
+}
+
+.dropDownContent a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.dropDown:hover .dropDownContent {
+    display: block;
+}
+
+
+.h1 {
+    margin: 4% 3%;
+}
+
+.form { 
+    width: 50%;
+    margin: auto;
+    display: none;
+    padding: 10px;
+    border-radius: 2%;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.addProject {
+    margin: 0% 3%;
+}
+
+.addProject button {
+    padding: 15px 16px;
+    font-size: 17px;
+    display: block;
+    background-color: #2463EB;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border: none;
+    color: white;
+    transition: 2s;
+}
+
+.addProject button:hover {
+    transition: 1s;
+    background-color: #0d42b4;
+}
+
+.section {
+    padding: 10px;
+    text-align: left;
+}
+
+.section select {
+    width: 99%;
+    padding: 8px;
+}
+
+.section1 {
+    text-align: left;
+    width: 100%;
+    float: left;
+    padding: 10px;
+}
+
+.section input {
+    width: 99%;
+    padding: 8px;
+}
+
+.submit {
+    padding: 10px;
+    background-color: #2463EB;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    text-align: center;
+}
+
+.button {
+    text-align: right;
+}
+
+table,
+th,
+td {
+    border: none;
+    border-collapse: collapse;
+    padding: 1%;
+}
+
+td {
+    border-right: 0.5px solid rgb(156, 154, 154);
+}
+
+td:last-child {
+    border: none;
+}
+
+tr {
+    border-bottom: 0.5px solid rgb(156, 154, 154);
+}
+
+tr:last-child {
+    border: none;
+}
+
+thead tr th{
+    color: white;
+    text-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #fff;
+}
+  
+tbody tr:nth-child(even) {
+    background-color: #fff;
+}
+
+tbody tr:hover {
+    background-color: #E1EBEE;
+}
+
+table {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    background-color: #2463EB;
+}
+
+table {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+}
+
+td {
+    padding: 7px 0px;
+}
+
+.active {
+    border: none;
+    margin: 3px;
+}
+
+.active1 {
+    border: none;
+    margin: 3px;
+}
+
+#one i {
+    color: green;
+}
+
+#two i {
+    color: red;
+}
+
+.tables {
+    margin: auto;
+    border: 2px black solid;
+    margin-top: 40px;
+}
+
+small {
+    visibility: hidden;
+    color: red;
+}
+
+.table {
+    margin: 2% 3%;
+}
