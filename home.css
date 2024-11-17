@@ -6,7 +6,7 @@
 
 html {
     scroll-behavior: smooth;
-}
+} 
 
 .menu{
     position: fixed;
@@ -275,4 +275,100 @@ p{
  .fa-plus{
   
   color: #2463EB;
+}
+
+
+@media screen and (min-device-width: 280px) and (max-device-width: 768px) {
+    .menu {
+        width: 100%;
+    }
+
+    .home {
+        display: none;
+    }
+
+    .tekst {
+        width: 100%;
+        padding-top: 25%;
+        border: 1px solid red;
+    }
+
+    .tekst h1 {
+        font-size: 50px;
+    }
+
+    .image img{
+        width: 95%;
+    }
+
+    .trusted h2 {
+        font-size: 30px;
+    }
+
+    .companies {
+        width: 95%;
+        margin: auto;
+    }
+
+    .gallery {
+        width: 45%;
+    }
+
+    .gallery img {
+        width: 90%;
+    }
+
+    .why h2 {
+        font-size: 30px;
+    }
+
+    .content {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .text {
+        width: 90%;
+    }
+
+    .text h2 {
+        font-size: 28px;
+    }
+
+    .text p {
+        font-size: 20px;
+    }
+
+    .pricing h2 {
+        font-size: 30px;
+    }
+
+    .content2 {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .text2 {
+        width: 80%;
+        margin: auto;
+        margin-top: 5%;
+    }
+
+    .hh3 {
+        font-size: 23px;
+    }
+
+    .questions h2 {
+        font-size: 30px;
+    }
+
+    .accordion {
+        font-size: 20px;
+    }
+
+    .paragraff {
+        font-size: 18px;
+    }
 }

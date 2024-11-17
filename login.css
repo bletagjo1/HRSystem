@@ -153,3 +153,9 @@ body {
     display: none;
     text-align: left;
 }
+
+@media screen and (min-device-width: 280px) and (max-device-width: 768px) {
+    .container {
+        margin-top: 40%;
+    }
+}
