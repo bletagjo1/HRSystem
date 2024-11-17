@@ -330,6 +330,8 @@ p{
 
     .text {
         width: 90%;
+        margin: auto;
+        margin-top: 5%;
     }
 
     .text h2 {

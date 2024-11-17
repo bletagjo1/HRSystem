@@ -156,6 +156,6 @@ body {
 
 @media screen and (min-device-width: 280px) and (max-device-width: 768px) {
     .container {
-        margin-top: 40%;
+        margin-top: 10%;
     }
 }
